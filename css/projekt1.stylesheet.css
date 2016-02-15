@@ -57,7 +57,7 @@ a:hover {color: grey;}
           }
 
 .img-wall {
-  margin-top: 100px;
+  margin-top: 80px;
   width: 100%;
   text-align: center;
 }
@@ -86,19 +86,36 @@ a:hover {color: grey;}
           }
 
 
-.context {display: inline-block;
-          width: 50%;
-          margin-top: 20px;}
+.context
+      {display: inline-block;
+      width: 50%;
+
+      text-align: left;
+      }
+
+.context ul
+        {margin: 0;
+        padding: 0; }
 
 .sketch-img   {display: inline-block;
               width: 50%;
               float:right;
-              margin-top: 40px;
+              margin-top: 12px;
             }
 
 .sketch-img img {width: 95%;
                 float: right;}
 
+.second-img
+          {margin-top: 8px;
+          height: 600px;
+          overflow: hidden;
+          display: center;
+                            }
+
+.second-img img
+            {width: 100%;
+            }
 
 p {font-family: 'Open Sans', sans-serif;
   text-align: left;
@@ -111,7 +128,7 @@ p {font-family: 'Open Sans', sans-serif;
 .footer{  width: 1200px;
           height:250px;
           text-align: center;
-          margin-top: 60px;
+          margin-top: 500px;
           margin-left: auto;
           margin-right: auto;
           border-top: solid;
